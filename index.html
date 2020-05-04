@@ -2,23 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <title>Portfolio_Umair</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Portfolio_Umair</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" />
   </head>
   <body>
-    <nav class="nav">
-      <div class="logo">
-        <img src="/images/myLogo.jpg" alt="Umair" width="35px" height="40px" />
-      </div>
-      <div class="nav_list">
-        <a href="#home">HOME</a>
-        <a href="#about">ABOUT</a>
-        <a href="#skils">SKILS</a>
-        <a href="#contact">CONTACT</a>
-      </div>
-    </nav>
+    <header>
+      <img class="logo" src="/images/myLogo.jpg" alt="Umair" />
+      <input id="toggler" class="toggler" type="checkbox" />
+      <label for="toggler" class="burger">
+        <span><i class="fas fa-bars"></i></span>
+      </label>
+      <nav>
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skils">SKILLS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <!-- <img src="/images/IMG20200413162252.jpg" alt="" /> -->
   </body>
 </html>
+<!-- <input type="checkbox" id="check" />
+<label for="check">
+  <i class="fas fa-ellipsis-h" id="btn" aria-hidden="true"></i>
+  <i class="fas fa-times" id="cancel" aria-hidden="true"></i>
+</label> -->
