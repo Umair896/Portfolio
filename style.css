@@ -60,7 +60,8 @@ nav ul li a:hover {
   color: rgb(0, 0, 255);
   transition: ease-in 0.3s;
   background-color: green;
-  padding: 10px;
+  border-radius: 10px;
+  padding: 7px;
 }
 
 .toggler:checked ~ nav ul {
