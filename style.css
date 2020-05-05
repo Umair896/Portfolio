@@ -130,6 +130,70 @@ nav ul li a:hover {
   display: none;
 }
 
+/* ICONS STYLE */
+
+.icons {
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  background: #f1f1f1;
+  width: 40px;
+  height: 40px;
+  border-radius: 30%;
+  margin: 10px 5px;
+  box-shadow: 0 5px 15px -5px white;
+  color: #3498db;
+  overflow: hidden;
+  position: relative;
+  /* padding-top: 12px;
+  padding-left: 1px; */
+  /* font-size: 16px; */
+}
+
+.btn i {
+  line-height: 40px;
+  font-size: 16px;
+  transition: 0.3s ease-in;
+}
+
+.btn:hover i {
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 55px;
+  background: #3498db;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+
+.btn:hover::before {
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+
+@keyframes aaa {
+  0% {
+    left: -110%;
+    top: 90%;
+  }
+  50% {
+    left: 10%;
+    top: -30%;
+  }
+  100% {
+    left: -10%;
+    top: -10%;
+  }
+}
+
 /*Desktop Screen Format*/
 
 @media screen and (min-width: 650px) {
