@@ -105,12 +105,12 @@ nav ul li a:hover {
   opacity: 0.9;
 }
 
-/* .my-pic img:hover {
+.my-pic img:hover {
   transform: scale(1.2);
-  z-index: 2;
+  /* z-index: 2; */
   box-shadow: 0px 2px 20px #fff;
   transition: 1s;
-} */
+}
 
 /* NAME STYLE */
 
@@ -226,6 +226,10 @@ nav ul li a:hover {
 
 /* SKILLS STYLE */
 
+.my-skills {
+  background: #101010;
+  padding-top: 10px;
+}
 .skill-icon img {
   width: 30px;
   height: 30px;
@@ -242,23 +246,10 @@ nav ul li a:hover {
 
 /* SKILLS PROGRESS BAR */
 
-/* .skill-wrap {
-  text-align: center;
-  background-color: #ff0000;
-} */
-
-.container {
-  /* background: white; */
-  /* display: block; */
-  /* width: 50%;
-  margin-left: 32%; */
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-}
-
 .container .card {
   position: relative;
+  display: block;
+  margin: 20px auto;
   width: 250px;
   height: 300px;
   background: linear-gradient(0deg, #1b1b1b, #222, #1b1b1b);
