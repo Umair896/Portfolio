@@ -201,7 +201,7 @@ nav ul li a:hover {
   padding-bottom: 20px;
   text-align: center;
   color: #f1f1f1;
-  background-color: rgba(117, 58, 151, 0.178);
+  background-color: rgba(117, 58, 151, 0.12);
 }
 
 .about-content i {
@@ -222,6 +222,22 @@ nav ul li a:hover {
   margin-left: 10%;
   line-height: 25px;
   font-size: 18px;
+}
+
+/* SKILLS STYLE */
+
+.skill-icon img {
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: 20px auto 10px;
+  border-radius: 20%;
+}
+
+.skill-icon h2 {
+  color: #f1f1f1;
+  font-size: 26px;
+  text-align: center;
 }
 
 /*Desktop Screen Format*/
