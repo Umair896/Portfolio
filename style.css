@@ -229,6 +229,7 @@ nav ul li a:hover {
 .my-skills {
   background: #101010;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 .skill-icon img {
   width: 30px;
