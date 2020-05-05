@@ -248,7 +248,7 @@ nav ul li a:hover {
 } */
 
 .container {
-  background: white;
+  /* background: white; */
   /* display: block; */
   /* width: 50%;
   margin-left: 32%; */
@@ -286,11 +286,66 @@ nav ul li a:hover {
   background: rgba(255, 255, 255, 0.03);
 }
 
+.percent {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 50px #000;
+}
+
+.percent .number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.percent .number h2 {
+  color: #777;
+  font-weight: 700;
+  font-size: 40px;
+  transition: 0.5s;
+}
+
+.card:hover .percent .number h2 {
+  color: #fff;
+  font-size: 48px;
+}
+
+.percent .number h2 span {
+  font-size: 24px;
+  color: #777;
+}
+
+.card:hover .percent .number h2 span {
+  color: #fff;
+}
+
+.text {
+  position: relative;
+  color: #777;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.card:hover .text {
+  color: #fff;
+}
 svg {
   position: relative;
   width: 150px;
   height: 150px;
-  z-index: 1000;
+  /* z-index: 1000; */
 }
 
 svg circle {
