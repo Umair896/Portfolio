@@ -194,8 +194,34 @@ nav ul li a:hover {
   }
 }
 
-nav ul li a:active .my-pic {
-  transition: ease-in 1s;
+/* ABOUT STYLE */
+
+.about-content {
+  margin-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #f1f1f1;
+  background-color: rgba(117, 58, 151, 0.178);
+}
+
+.about-content i {
+  color: #2980b9;
+  font-size: 26px;
+  margin-top: 14px;
+}
+
+.about-content h2 {
+  color: #f1f1f1;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  font-size: 26px;
+}
+
+.about-content p {
+  width: 80%;
+  margin-left: 10%;
+  line-height: 25px;
+  font-size: 18px;
 }
 
 /*Desktop Screen Format*/
