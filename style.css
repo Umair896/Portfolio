@@ -112,6 +112,24 @@ nav ul li a:hover {
   transition: 1s;
 } */
 
+/* NAME STYLE */
+
+.my-name {
+  color: aliceblue;
+  font-size: 12px;
+  text-align: center;
+  line-height: 35px;
+  margin-top: 30px;
+}
+
+.my-name h1 {
+  text-transform: uppercase;
+}
+
+.my-name p {
+  display: none;
+}
+
 /*Desktop Screen Format*/
 
 @media screen and (min-width: 650px) {
