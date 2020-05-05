@@ -194,6 +194,10 @@ nav ul li a:hover {
   }
 }
 
+nav ul li a:active .my-pic {
+  transition: ease-in 1s;
+}
+
 /*Desktop Screen Format*/
 
 @media screen and (min-width: 650px) {
