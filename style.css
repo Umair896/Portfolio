@@ -470,7 +470,8 @@ svg circle:nth-child(2) {
   text-align: center;
   background: #171a1b;
   padding-top: 30px;
-  display: block;
+  padding-bottom: 16px;
+  /* display: block; */
 }
 
 .contact-icon i {
@@ -499,16 +500,19 @@ svg circle:nth-child(2) {
   color: white;
   line-height: 36px;
   font-weight: bold;
+  margin-bottom: 12px;
 }
 
 .detail-icon .fa-map-marker-alt {
   color: rgb(255, 0, 0);
-  margin-right: 16px;
+  position: relative;
+  left: -16px;
 }
 
 .detail-icon .fa-phone {
   color: #2980b9;
-  margin-right: 30px;
+  position: relative;
+  left: -20px;
 }
 
 .detail-icon p {
@@ -516,13 +520,27 @@ svg circle:nth-child(2) {
   font-size: 18px;
 }
 
-.detail-icon p:last-child {
-  padding-left: 0px;
+.detail-icon p:first-child {
+  position: relative;
+  left: -8px;
 }
 
-.detail p:last-child {
+.detail p:first-child {
+  padding-left: 45px;
 }
 
+/* COPYRIGHT STYLE */
+
+footer {
+  text-align: center;
+  color: #ffffff;
+  margin: 14px 0;
+  font-size: 16px;
+}
+
+footer i {
+  color: #0984e3;
+}
 /*Desktop Screen Format*/
 
 @media screen and (min-width: 650px) {
