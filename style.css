@@ -34,12 +34,12 @@ header {
 
 nav ul {
   position: fixed;
-  width: 100%;
+  width: 50%;
   height: 250px;
   padding: 16px;
   background: rgba(19, 51, 75, 0.863);
   list-style: none;
-  left: -100%;
+  right: -100%;
   transition: all 0.5s;
 }
 
@@ -60,30 +60,34 @@ nav ul li a {
 nav ul li a:hover {
   transition: ease-in 0.3s;
   background-color: black;
-  text-shadow: none;
   border-radius: 10px;
   padding: 8px 12px;
   text-shadow: 0 0 3px #ff0000;
 }
 
 .toggler:checked ~ nav ul {
-  left: 0;
+  right: 0;
 }
 
-.burger {
+.click {
   position: absolute;
-  font-size: 30px;
+  font-size: 30;
   color: white;
   text-shadow: 2px 2px 4px rgba(31, 31, 31, 0.658);
   top: 0;
   right: 0;
-  margin-right: 12px;
+  margin-right: 20px;
   height: 100%;
   display: flex;
   align-items: center;
 }
 
+.click i {
+  font-size: 24px;
+}
+
 /* MYPIC STYLE */
+
 .my-pic {
   padding-top: 150px;
 }
@@ -95,19 +99,16 @@ nav ul li a:hover {
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
-  border: 18px solid rgba(17, 78, 128, 0.644);
+  border: 8px solid rgba(17, 78, 128, 0.644);
   box-shadow: 0 0 35px 26px rgb(85, 130, 167);
-  /* border: 18px solid rgba(17, 128, 106, 0.822);
-  box-shadow: 0 0 35px 26px rgb(85, 167, 150); */
   position: relative;
   opacity: 0.9;
 }
 
 .my-pic img:hover {
-  transform: scale(1.2);
-  /* z-index: 2; */
+  transform: scale(1.1);
   box-shadow: 0px 2px 20px #fff;
-  transition: 1s;
+  transition: ease-in 0.5s;
 }
 
 /* NAME STYLE */
@@ -222,7 +223,7 @@ span {
   margin-left: 10%;
   line-height: 30px;
   font-size: 18px;
-  text-align: justify;
+  text-align: center;
   /* white-space: nowrap; */
   /* overflow: hidden; */
   /* text-overflow: ellipsis; */
@@ -469,6 +470,7 @@ svg circle:nth-child(2) {
   background: #171a1b;
   padding-top: 30px;
   padding-bottom: 16px;
+  border-bottom: 4px solid white;
   /* display: block; */
 }
 
@@ -510,7 +512,7 @@ svg circle:nth-child(2) {
 .detail-icon .fa-phone {
   color: #2980b9;
   position: relative;
-  left: -20px;
+  left: -16px;
 }
 
 .detail-icon p {
@@ -523,9 +525,6 @@ svg circle:nth-child(2) {
   left: -8px;
 }
 
-.detail-icon p {
-  /* padding-left: -60px; */
-}
 .detail p:first-child {
   padding-left: 18px;
 }
