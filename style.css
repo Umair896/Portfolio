@@ -126,7 +126,7 @@ nav ul li a:hover {
 }
 
 .my-name p {
-  display: none;
+  visibility: hidden;
 }
 
 /* ICONS STYLE */
@@ -206,14 +206,14 @@ nav ul li a:hover {
 .about-content i {
   color: #2980b9;
   font-size: 26px;
-  margin-top: 14px;
+  margin-top: 20px;
 }
 
 .about-content h2 {
   color: #f1f1f1;
-  margin-top: 10px;
+  margin-top: 12px;
   margin-bottom: 12px;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .about-content p,
@@ -250,7 +250,7 @@ span {
 
 .skill-icon h2 {
   color: #f1f1f1;
-  font-size: 30px;
+  font-size: 24px;
   text-align: center;
 }
 
@@ -385,7 +385,6 @@ svg circle:nth-child(2) {
 /*TOOLS STYLE */
 
 .my-tools {
-  /* background: #101010; */
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -399,7 +398,7 @@ svg circle:nth-child(2) {
 
 .tool-icon h2 {
   color: #f1f1f1;
-  font-size: 30px;
+  font-size: 24px;
   text-align: center;
 }
 
@@ -499,6 +498,7 @@ svg circle:nth-child(2) {
   padding-top: 14px;
   color: white;
   line-height: 36px;
+  font-size: 18px;
   font-weight: bold;
   margin-bottom: 12px;
 }
@@ -545,10 +545,10 @@ footer i {
 
 /*Desktop Screen Format*/
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 800px) {
   /*NAV BAR*/
 
-  .burger {
+  .click {
     display: none;
   }
 
@@ -573,6 +573,60 @@ footer i {
     margin-top: 16px;
     margin-right: 16px;
     margin-left: 50px;
+  }
+
+  /* MYPIC STYLE */
+  .home {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: space-between;
+    padding-bottom: 60px;
+  }
+
+  .home .my-pic {
+    order: 2;
+    margin-right: 10px;
+  }
+
+  .home .my-pic img {
+    width: 300px;
+    height: 340px;
+    border-radius: 20%;
+    border: 5px solid rgba(17, 78, 128, 0.644);
+  }
+
+  .my-pic img:hover {
+    transform: scale(1.05);
+  }
+
+  /* NAME STYLE */
+
+  .content {
+    margin-top: 200px;
+    margin-left: -40px;
+  }
+
+  .my-name p {
+    visibility: visible;
+  }
+
+  .my-name h1 {
+    font-size: 28px;
+    color: #0cf0c2;
+  }
+
+  .my-name p {
+    text-align: left;
+    text-transform: capitalize;
+    color: aliceblue;
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+
+  .my-name h2 {
+    margin: 10px 0;
+    font-size: 26px;
   }
 
   /* ABOUT STYLE */
