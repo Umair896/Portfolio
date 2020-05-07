@@ -219,7 +219,7 @@ nav ul li a:hover {
 
 .about-content p,
 span {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Franklin Gothic Medium";
   width: 80%;
   margin-left: 10%;
   line-height: 30px;
@@ -536,6 +536,7 @@ footer {
   color: #ffffff;
   margin: 14px 0;
   font-size: 16px;
+  font-weight: bold;
 }
 
 footer i {
