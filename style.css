@@ -581,12 +581,12 @@ footer i {
     width: 80%;
     margin-left: 10%;
     justify-content: space-between;
-    padding-bottom: 60px;
+    padding-bottom: 100px;
   }
 
   .home .my-pic {
     order: 2;
-    margin-right: 10px;
+    margin: 35px 10px 0 0;
   }
 
   .home .my-pic img {
@@ -639,7 +639,7 @@ footer i {
   .about-content h2 {
     margin-top: 16px;
     margin-bottom: 18px;
-    font-size: 34px;
+    font-size: 30px;
   }
 
   .about-content p,
@@ -664,7 +664,7 @@ footer i {
   }
 
   .skill-icon h2 {
-    font-size: 34px;
+    font-size: 30px;
   }
   .container {
     display: flex;
@@ -682,8 +682,22 @@ footer i {
     padding-bottom: 40px;
   }
 
+  .tool-icon h2 {
+    font-size: 30px;
+  }
+
   .container .card-tool {
     margin-top: 20px;
     transform: scale(1);
+  }
+
+  /* CONTACT STYLES */
+
+  .contact-icon h2 {
+    font-size: 30px;
+  }
+
+  .contact-wrap {
+    transform: scale(1.1);
   }
 }
