@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Courier New", Courier, monospace;
-  font-family: "Montserrat", sans-serif;
   text-decoration: none;
 }
 
@@ -219,7 +217,7 @@ nav ul li a:hover {
 
 .about-content p,
 span {
-  font-family: "Franklin Gothic Medium";
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   width: 80%;
   margin-left: 10%;
   line-height: 30px;
@@ -525,8 +523,11 @@ svg circle:nth-child(2) {
   left: -8px;
 }
 
+.detail-icon p {
+  /* padding-left: -60px; */
+}
 .detail p:first-child {
-  padding-left: 45px;
+  padding-left: 18px;
 }
 
 /* COPYRIGHT STYLE */
@@ -542,6 +543,7 @@ footer {
 footer i {
   color: #0984e3;
 }
+
 /*Desktop Screen Format*/
 
 @media screen and (min-width: 650px) {
