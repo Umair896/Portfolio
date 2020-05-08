@@ -90,12 +90,6 @@ nav ul li a:hover {
   margin-right: 14px;
 }
 
-nav ul li a:target nav ul {
-  display: none;
-  position: relative;
-  right: -100%;
-}
-
 /* MYPIC STYLE */
 
 .my-pic {
@@ -386,7 +380,7 @@ svg circle:nth-child(2) {
   stroke: #00a1ff;
 }
 .card:nth-child(3) svg circle:nth-child(2) {
-  stroke-dashoffset: calc((440 * 50) / 100);
+  stroke-dashoffset: calc((440 * 45) / 100);
   stroke: #ff04f7;
 }
 
