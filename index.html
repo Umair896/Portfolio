@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" />
+    <script>
+      $("nav a").click(function () {
+        $("nav ul").collapse("hide");
+      });
+    </script>
   </head>
   <body>
     <header>
       <img class="logo" src="/images/my_Logo.jpg" alt="Umair" />
       <input id="toggler" class="toggler" type="checkbox" />
-      <label for="toggler" class="click">
+      <label for="toggler" class="click" ar>
         <span><i class="fas fa-ellipsis-h"></i></span>
       </label>
       <nav>
@@ -51,7 +56,7 @@
       <h2>ABOUT ME</h2>
       <p>
         <span>I'm Mohammed Umair Ansari,</span> a Front-End Web Developer from Bangalore, completed Bachelor's degree from SJB Institute of Technology
-        affiliated to Visvesvaraya Technological University, Belgavi. I build interactive websites that run across platforms & devices. I am very
+        affiliated to Visvesvaraya Technological University, Belagavi. I build interactive websites that run across platforms & devices. I am very
         passionate about producing high quality responsive websites and exceptional user experience. My websites are primarily hand-coded using HTML5,
         CSS3 & JavaScript. I spend a lot of time learning new techniques and actively help other people learn web development. Besides programming, I
         love spending time with friends and family. My hobbies are Cricket, Badminton and video gaming.
@@ -172,5 +177,10 @@
     <footer>
       <p>Copyright <i class="far fa-copyright"></i> 2019-2020 Mohammed Umair Ansari</p>
     </footer>
+    <script>
+      $("nav a").click(function () {
+        $("nav ul").collapse("hide");
+      });
+    </script>
   </body>
 </html>

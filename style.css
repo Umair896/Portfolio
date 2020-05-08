@@ -90,6 +90,12 @@ nav ul li a:hover {
   margin-right: 14px;
 }
 
+nav ul li a:target nav ul {
+  display: none;
+  position: relative;
+  right: -100%;
+}
+
 /* MYPIC STYLE */
 
 .my-pic {
@@ -224,8 +230,8 @@ nav ul li a:hover {
 .about-content p,
 span {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  width: 80%;
-  margin-left: 10%;
+  width: 85%;
+  margin-left: 7.5%;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -500,6 +506,8 @@ svg circle:nth-child(2) {
 
 .contact-wrap {
   display: flex;
+  width: 96%;
+  margin-left: 2%;
   justify-content: center;
   padding-top: 14px;
   color: white;
