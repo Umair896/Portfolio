@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
 }
 
 body {
@@ -59,7 +61,7 @@ nav ul li a {
 
 nav ul li a:hover {
   transition: ease-in 0.3s;
-  background-color: black;
+  background-color: rgb(202, 29, 29);
   border-radius: 10px;
   padding: 8px 12px;
   text-shadow: 0 0 3px #ff0000;
@@ -562,6 +564,8 @@ footer i {
     grid-column: 3/4;
     justify-content: flex-end;
     align-items: center;
+    transform: scale(1.1);
+    margin-right: 50px;
   }
 
   nav ul {
