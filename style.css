@@ -107,6 +107,7 @@ nav ul li a:hover {
   box-shadow: 0 0 35px 26px rgb(85, 130, 167);
   position: relative;
   opacity: 0.9;
+  cursor: pointer;
 }
 
 .my-pic img:hover {
@@ -150,9 +151,6 @@ nav ul li a:hover {
   color: #3498db;
   overflow: hidden;
   position: relative;
-  /* padding-top: 12px;
-  padding-left: 1px; */
-  /* font-size: 16px; */
 }
 
 .btn i {
@@ -230,9 +228,6 @@ span {
   font-size: 18px;
   font-weight: bold;
   text-align: center;
-  /* white-space: nowrap; */
-  /* overflow: hidden; */
-  /* text-overflow: ellipsis; */
 }
 .about-content span {
   color: #2980b9;
@@ -276,10 +271,11 @@ span {
   text-align: center;
   overflow: hidden;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .container .card:hover {
-  transform: translate(-10px);
+  transform: translate(-10px, -10px);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
 }
 
@@ -352,7 +348,6 @@ svg {
   position: relative;
   width: 150px;
   height: 150px;
-  /* z-index: 1000; */
 }
 
 svg circle {
@@ -424,6 +419,7 @@ svg circle:nth-child(2) {
   text-align: center;
   overflow: hidden;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .container .card-tool:hover {
@@ -476,7 +472,6 @@ svg circle:nth-child(2) {
   padding-top: 30px;
   padding-bottom: 16px;
   border-bottom: 4px solid white;
-  /* display: block; */
 }
 
 .contact-icon i {
@@ -637,6 +632,12 @@ footer i {
   .my-name h2 {
     margin: 10px 0;
     font-size: 26px;
+  }
+
+  /* ICONS STYLE */
+
+  .icons {
+    transform: scale(1.1);
   }
 
   /* ABOUT STYLE */
