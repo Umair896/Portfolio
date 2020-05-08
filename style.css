@@ -507,13 +507,13 @@ svg circle:nth-child(2) {
 .detail-icon .fa-map-marker-alt {
   color: rgb(255, 0, 0);
   position: relative;
-  left: -16px;
+  left: -10px;
 }
 
 .detail-icon .fa-phone {
   color: #2980b9;
   position: relative;
-  left: -16px;
+  left: -10px;
 }
 
 .detail-icon p {
