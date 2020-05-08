@@ -4,7 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   scroll-behavior: smooth;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 body {
@@ -223,11 +223,12 @@ nav ul li a:hover {
 
 .about-content p,
 span {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   width: 80%;
   margin-left: 10%;
   line-height: 30px;
   font-size: 18px;
+  font-weight: bold;
   text-align: center;
   /* white-space: nowrap; */
   /* overflow: hidden; */
