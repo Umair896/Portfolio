@@ -116,13 +116,15 @@ nav ul li a:hover {
 }
 
 /* NAME STYLE */
-
+.content {
+  margin-top: 32px;
+  padding-bottom: 16px;
+}
 .my-name {
   color: aliceblue;
   font-size: 12px;
   text-align: center;
   line-height: 35px;
-  margin-top: 30px;
 }
 
 .my-name h1 {
@@ -132,6 +134,10 @@ nav ul li a:hover {
 
 .my-name p {
   visibility: hidden;
+}
+.my-name h2 {
+  margin: 8px;
+  font-size: 22px;
 }
 
 /* ABOUT STYLE */
