@@ -17,7 +17,7 @@ body {
 header {
   background: rgba(19, 51, 75, 0.863);
   text-align: center;
-  height: 70px;
+  height: 60px;
   width: 100%;
   position: fixed;
   z-index: 25;
@@ -27,14 +27,9 @@ header {
   display: none;
 }
 
-.logo {
-  display: flex;
-  width: 60px;
-  height: 70px;
-}
-
 nav ul {
   position: fixed;
+  margin-top: 60px;
   width: 50%;
   height: 250px;
   padding: 16px;
@@ -550,6 +545,7 @@ footer i {
 
   header {
     display: grid;
+    height: 75px;
   }
 
   nav {
@@ -558,7 +554,7 @@ footer i {
     justify-content: flex-end;
     align-items: center;
     transform: scale(1.1);
-    margin-right: 50px;
+    margin-right: 100px;
   }
 
   nav ul {
@@ -570,7 +566,7 @@ footer i {
   nav ul li {
     margin-top: 16px;
     margin-right: 16px;
-    margin-left: 50px;
+    margin-left: 80px;
   }
 
   /* MYPIC STYLE */
