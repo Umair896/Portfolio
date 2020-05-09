@@ -178,6 +178,7 @@ span {
   background: #101010;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-bottom: 4px solid#ffffff;
 }
 .skill-icon img {
   width: 30px;
@@ -643,6 +644,7 @@ footer i {
   span {
     line-height: 40px;
     font-size: 22px;
+    text-align: justify;
   }
 
   .about-content span {
