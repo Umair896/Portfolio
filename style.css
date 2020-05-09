@@ -4,7 +4,6 @@
   box-sizing: border-box;
   text-decoration: none;
   scroll-behavior: smooth;
-  /* overflow-y: scroll; */
 }
 
 body {
@@ -133,67 +132,6 @@ nav ul li a:hover {
 
 .my-name p {
   visibility: hidden;
-}
-
-/* ICONS STYLE */
-
-.icons {
-  text-align: center;
-}
-.btn {
-  display: inline-block;
-  background: #f1f1f1;
-  width: 40px;
-  height: 40px;
-  border-radius: 30%;
-  margin: 10px 5px;
-  box-shadow: 0 5px 15px -5px white;
-  color: #3498db;
-  overflow: hidden;
-  position: relative;
-}
-
-.btn i {
-  line-height: 40px;
-  font-size: 16px;
-  transition: 0.3s ease-in;
-}
-
-.btn:hover i {
-  transform: scale(1.3);
-  color: #f1f1f1;
-}
-
-.btn::before {
-  content: "";
-  position: absolute;
-  width: 60px;
-  height: 55px;
-  background: #3498db;
-  transform: rotate(45deg);
-  left: -110%;
-  top: 90%;
-}
-
-.btn:hover::before {
-  animation: aaa 0.7s 1;
-  top: -10%;
-  left: -10%;
-}
-
-@keyframes aaa {
-  0% {
-    left: -110%;
-    top: 90%;
-  }
-  50% {
-    left: 10%;
-    top: -30%;
-  }
-  100% {
-    left: -10%;
-    top: -10%;
-  }
 }
 
 /* ABOUT STYLE */
@@ -388,6 +326,7 @@ svg circle:nth-child(2) {
 .my-tools {
   padding-top: 10px;
   padding-bottom: 10px;
+  background: #101010;
 }
 .tool-icon img {
   width: 70px;
@@ -495,6 +434,7 @@ svg circle:nth-child(2) {
 
 .contact-wrap {
   display: flex;
+  display: block;
   width: 96%;
   margin-left: 2%;
   justify-content: center;
@@ -506,30 +446,76 @@ svg circle:nth-child(2) {
   margin-bottom: 12px;
 }
 
-.detail-icon .fa-map-marker-alt {
+.contact-wrap .fa-map-marker-alt {
   color: rgb(255, 0, 0);
   position: relative;
   left: -10px;
 }
 
-.detail-icon .fa-phone {
+.contact-wrap .fa-phone {
   color: #2980b9;
   position: relative;
   left: -10px;
 }
+/*CONTACT ICONS STYLE */
 
-.detail-icon p {
-  color: #8e44ad;
-  font-size: 18px;
+.icons {
+  text-align: center;
 }
-
-.detail-icon p:first-child {
+.btn {
+  display: inline-block;
+  background: #f1f1f1;
+  width: 40px;
+  height: 40px;
+  border-radius: 30%;
+  margin: 10px 10px;
+  box-shadow: 0 5px 15px -5px white;
+  color: #3498db;
+  overflow: hidden;
   position: relative;
-  left: -8px;
 }
 
-.detail p:first-child {
-  padding-left: 18px;
+.btn i {
+  line-height: 40px;
+  font-size: 16px;
+  transition: 0.3s ease-in;
+}
+
+.btn:hover i {
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 55px;
+  background: #3498db;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+
+.btn:hover::before {
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+
+@keyframes aaa {
+  0% {
+    left: -110%;
+    top: 90%;
+  }
+  50% {
+    left: 10%;
+    top: -30%;
+  }
+  100% {
+    left: -10%;
+    top: -10%;
+  }
 }
 
 /* COPYRIGHT STYLE */
