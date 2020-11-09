@@ -315,8 +315,12 @@ svg circle:nth-child(2) {
   stroke: #00a1ff;
 }
 .card:nth-child(3) svg circle:nth-child(2) {
-  stroke-dashoffset: calc((440 * 45) / 100);
+  stroke-dashoffset: calc((440 * 40) / 100);
   stroke: #ff04f7;
+}
+.card:nth-child(4) svg circle:nth-child(2) {
+  stroke-dashoffset: calc((440 * 50) / 100);
+  stroke: #02e0e0;
 }
 
 .container .card {
@@ -551,7 +555,7 @@ footer i {
   nav {
     display: flex;
     grid-column: 3/4;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
     transform: scale(1.1);
     margin-right: 100px;
@@ -669,7 +673,8 @@ footer i {
   }
   .container {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   .container .card {
